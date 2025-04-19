@@ -1,0 +1,31 @@
+body {
+    font-family: sans-serif;
+    padding: 2em;
+    background-color: #f9f9f9;
+    direction: rtl;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  .blog-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+  }
+  
+  .blog-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    padding: 1em;
+  }
+  
+  .blog-card h2 {
+    margin: 0 0 0.5em 0;
+  }
+  
+  .blog-card p {
+    color: #555;
+  }
